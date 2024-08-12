@@ -68,5 +68,3 @@ For specific queries or further assistance, please email mjain123@umd.edu.
 
 [2] Ganesan, S. J. et al. Effect of lipid head group interactions on membrane properties and membrane-induced cationic β-hairpin folding. Phys. Chem. Chem. Phys. 2016, 18, 17836–17850.
 ```
-
-You can now copy this entire block, including the opening and closing ``` marks, and paste it directly into your README.md file on GitHub. The Markdown formatting will be automatically rendered when viewed on GitHub.
