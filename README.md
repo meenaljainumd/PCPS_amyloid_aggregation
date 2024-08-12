@@ -4,6 +4,8 @@ This directory contains all files and protocol for the self-assembly of amyloid 
 # Contents
 
 (1) ITP_files/ 
+
+
 Directory with all the topology files required to set the simulations. 
 
     (a) ff_r.itp : nonbonded interaction parameters 
