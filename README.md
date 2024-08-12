@@ -67,4 +67,3 @@ For specific queries or further assistance, please email mjain123@umd.edu.
 [1] Wassenaar, T. A. et al. Computational lipidomics with insane: a versatile tool for generating custom membranes for molecular simulations. J. Chem. Theory Comput. 2015, 11, 2144–2155.
 
 [2] Ganesan, S. J. et al. Effect of lipid head group interactions on membrane properties and membrane-induced cationic β-hairpin folding. Phys. Chem. Chem. Phys. 2016, 18, 17836–17850.
-```
