@@ -1,0 +1,5 @@
+; position restraints for PHE_&_BB of 
+
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+19    1       1000       1000       1000

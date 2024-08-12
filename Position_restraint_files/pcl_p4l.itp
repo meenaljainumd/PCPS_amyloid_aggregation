@@ -1,0 +1,5 @@
+; position restraints for PC_L_&_P4L of 
+
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+2    1       1000       1000       1000

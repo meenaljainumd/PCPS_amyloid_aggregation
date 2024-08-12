@@ -1,0 +1,40 @@
+#include "./ITP/ff_r.itp"
+#include "./ITP/water.md.itp"
+#include "./ITP/martini_v2.0_ions.itp"
+#include "./ITP/pops.itp"
+#ifdef POPS_PO4
+#include "./itps/pops_po4.itp"
+#endif
+#include "./ITP/popc.itp"
+#ifdef POPC_PO4
+#include "./itps/popc_po4.itp"
+#endif
+#include "./ITP/ps_l.itp"
+#ifdef PSL_P4L
+#include "./itps/psl_p4l.itp"
+#endif
+#include "./ITP/pc_l.itp"
+#ifdef PCL_P4L
+#include "./itps/pcl_p4l.itp"
+#endif
+
+#include "./ITP/abeta2.itp"
+#ifdef PHE_BB
+#include "./itps/phe_bb.itp"
+#endif
+
+
+; #define EM
+
+[ system ]
+Modified abeta peptide seq klvffae in water
+
+[ molecules ]
+
+POPC           152
+PC_L           152
+POPS            17
+PS_L            17
+ION           34
+Protein           16
+PW           12825

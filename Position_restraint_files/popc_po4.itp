@@ -1,0 +1,5 @@
+; position restraints for POPC_&_PO4 of 
+
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   2    1       1000       1000       1000

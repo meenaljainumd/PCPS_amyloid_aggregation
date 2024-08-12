@@ -1,0 +1,71 @@
+;;;;;; PALMITOYL 	OLEOYL PHOSPHATIDYLCHOLINE
+
+[moleculetype]
+; molname 	nrexcl
+  POPC          1
+
+[atoms]
+; id 	type 	resnr 	residu 	atom 	cgnr 	charge
+  1 	Q0 	    1  	POPC 	NC3 	1 	1.0
+  2 	Qa 	    1  	POPC 	PO4 	2  -1.0
+  3 	PNa 	1  	POPC 	GL1 	3 	0 
+  4     D1      1   POPC    G1P    3   0.175
+  5     D1      1   POPC    G1M    3  -0.175
+  6 	PNa 	1  	POPC 	GL2 	4 	0 
+  7     D1      1   POPC    G2P    4   0.175
+  8     D1      1   POPC    G2M    4  -0.175
+  9 	C1 	    1  	POPC 	C1A 	5 	0 
+  10 	C1 	    1  	POPC 	C2A 	6 	0 
+  11 	C1 	    1  	POPC 	C3A 	7 	0 
+  12 	C1  	1  	POPC 	C4A 	8 	0 
+  13 	C1  	1  	POPC 	C1B 	9 	0 
+  14 	C1 	    1  	POPC 	C2B 	10 	0 
+  15 	C3 	    1  	POPC 	D3B 	11 	0 
+  16 	C1 	    1  	POPC 	C4B 	12 	0 
+  17 	C1 	    1  	POPC 	C5B 	13 	0 
+
+[bonds]
+; i j 	funct 	length 	force.c.
+  1 2 	1 		0.47 	1250
+  2 3 	1 		0.47 	1250
+  3 6 	1 		0.37 	1250
+  3 13  1   	0.47    1250
+  6 9 	1 		0.47 	1250
+  9 10 	1 		0.47 	1250
+  10 11 1 		0.47 	1250
+  11 12 1 		0.47 	1250
+  13 14 1       0.47    1250
+  14 15 1       0.47    1250
+  15 16 1       0.47    1250
+  16 17 1       0.47    1250
+
+[constraints]
+;bonds between main bead and dummies, force.c. is 5000
+  3  4  1       0.14    
+  3  5  1       0.14    
+  6  7  1       0.14    
+  6  8  1       0.14    
+
+
+[angles]
+; i j k 	funct 	angle 	force.c.
+  2  3  6 	2 	120.0 	25.0 
+  2  3  13 	2 	180.0 	25.0 
+  6  9  10	2 	180.0 	25.0 
+  9  10 11 	2 	180.0 	25.0 
+  10 11 12  2 	180.0 	25.0 
+  3  13 14 	2 	180.0 	25.0 
+  13 14 15 	2 	180.0 	25.0 
+  14 15 16 	2 	120.0 	45.0 
+  15 16 17 	2 	180.0 	25.0 
+
+;angle between dummies and main bead
+  4  3  5       2        70.0     35
+  7  6  8       2        70.0     35
+
+[exclusions]
+; extra 1-2
+  2  4  5
+  4  5  7  8
+  5  7  8
+  7  8
